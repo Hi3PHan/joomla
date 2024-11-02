@@ -36,6 +36,8 @@ class StudentsModel extends ListModel
 
         $db->setQuery($query);
           echo "hêlo wolrd";
+          echo "Three Time";
+
 
 //        $query->from($db->quoteName('#__students') . ' AS a');
         // Thiết lập bảng cần truy vấn là `#__mywalks` với bí danh `a`.
