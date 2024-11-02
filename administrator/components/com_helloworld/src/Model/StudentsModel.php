@@ -35,7 +35,7 @@ class StudentsModel extends ListModel
 //        $db->setQuery($query, $this->getState('list.start'), $this->getState('list.limit'));
 
         $db->setQuery($query);
-
+          echo "hêlo wolrd";
 
 //        $query->from($db->quoteName('#__students') . ' AS a');
         // Thiết lập bảng cần truy vấn là `#__mywalks` với bí danh `a`.
