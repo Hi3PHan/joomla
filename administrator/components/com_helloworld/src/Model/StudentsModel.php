@@ -37,6 +37,7 @@ class StudentsModel extends ListModel
         $db->setQuery($query);
           echo "hêlo wolrd";
           echo "Three Time";
+          echo "6766";
 
 
 //        $query->from($db->quoteName('#__students') . ' AS a');
